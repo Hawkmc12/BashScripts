@@ -8,7 +8,7 @@ for i in {1..5}
 do
    mkdir Folder$i
 done
-for word in $(cat Usernames.txt)
+for word in $(cat /home/osboxes/Usernames.txt)
 do
 echo $word
 useradd -m $word
